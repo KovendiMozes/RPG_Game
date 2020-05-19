@@ -60,6 +60,9 @@ void specialEvents(char* id, char* newId, Character* myHero){
     else if(strcmp(newId, "i") == 0){
         printf("Nev: %s\nErosseg: %s\nSzint: %i\n", myHero->name, myHero->intensity, myHero->level);
     }
+    else if(strcmp(newId, "g") == 0){
+        printf("Igen o a gyanusitot!\n");
+    }
     else{
         strcat(id, newId);
     }

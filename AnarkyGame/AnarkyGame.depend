@@ -51,7 +51,7 @@
 	"item.h"
 	"character.h"
 
-1589903861 source:c:\users\mozes\documents\github\rpg_game\anarkygame\main.c
+1589925220 source:c:\users\mozes\documents\github\rpg_game\anarkygame\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -60,7 +60,7 @@
 	"item.h"
 	"character.h"
 
-1589903861 source:c:\users\mozes\documents\github\rpg_game\anarkygame\data.c
+1589925417 source:c:\users\mozes\documents\github\rpg_game\anarkygame\data.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -69,7 +69,7 @@
 	"item.h"
 	"character.h"
 
-1589904141 source:c:\users\mozes\documents\github\rpg_game\anarkygame\character.c
+1589911034 source:c:\users\mozes\documents\github\rpg_game\anarkygame\character.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

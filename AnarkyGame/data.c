@@ -63,9 +63,12 @@ int searchIdFromParentId(char* newId, Data* test){
 
 void gameStory(int numberId, Data* data, char* newId){
     char scanId[100] = "";
-    printf("\n%s - %s\nValaszon es irja be a betut: ",data->data[numberId]->id , data->data[numberId]->content);
+    printf("\n%s - %s\nIrja be a valasztot betut: ",data->data[numberId]->id , data->data[numberId]->content);
     scanf("%s", &scanId);
     strcpy(newId, scanId);
+    if(strcmp(newId, "exit") == 0){
+        exit(0);
+    }
     if(strlen(newId) > 1){
         printf("\n Tobb karaktert irtal. Valasz ujra.\n");
         strcpy(newId, "");
@@ -114,7 +117,11 @@ void computerStep(char* id, Data* data, char* myHeroIntensity, int myHeroLevel){
                 strcat(id, "b");
                 numberId = searchIdFromParentId(id, data);
                 printf("\n%s - %s\nValaszon es irja be a betut: ",data->data[numberId]->id , data->data[numberId]->content);
+                if(strcmp(data->data[numberId]->content, "Game over") == 0){
+                    exit(0);
+                }
                 // ide bejon egy olyan par eset amikor tovabb mehet
+                lastCharacterCutBackMove(id);
                 lastCharacterCutBackMove(id);
                 break;
             }
@@ -153,11 +160,29 @@ char* lastCharacterCutBackMove(char* id){
 
 
 void specialCases(char* id){
-    if(strcmp(id, "1aaaa") == 0){
-        strcpy(id, "1a");
+    if(strcmp(id, "1aaabbb") == 0){
+        strcpy(id, "1aaa");
     }
-    if(strcmp(id, "1bb") == 0){
-        strcpy(id, "1b");
+    if(strcmp(id, "1aaabbcbdb") == 0){
+        strcpy(id, "1aaab");
+    }
+    if(strcmp(id, "1aaabbcbda") == 0){
+        strcpy(id, "1aaaa");
+    }
+    if(strcmp(id, "1aaabbcbdcc") == 0){
+        strcpy(id, "1aaabbc");
+    }
+    if(strcmp(id, "1aac") == 0){
+        strcpy(id, "1aaabbc");
+    }
+    if(strcmp(id, "1aabba") == 0){
+        strcpy(id, "1aaaa");
+    }
+    if(strcmp(id, "1aabbd") == 0){
+        strcpy(id, "1aaabbcbdc");
+    }
+    if(strcmp(id, "1aac") == 0){
+        strcpy(id, "1aaabbc");
     }
 }
 
@@ -186,6 +211,9 @@ void inGame(Data* data){
             else{
                 numberId = numberIdOld;
             }
+        }
+        if(first == 0){
+            printf("%s ", myHero->name);
         }
         first = 1;
 
