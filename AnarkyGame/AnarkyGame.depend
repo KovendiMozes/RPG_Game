@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1589903671 source:c:\users\mozes\documents\github\rpg_game\anarkygame\ingame.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"data.h"
+	"item.h"
+	"character.h"
+	"inGame.h"
+
+1589903999 c:\users\mozes\documents\github\rpg_game\anarkygame\data.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"item.h"
+	"character.h"
+
+1589903861 c:\users\mozes\documents\github\rpg_game\anarkygame\item.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"data.h"
+	"character.h"
+
+1589903861 c:\users\mozes\documents\github\rpg_game\anarkygame\character.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"data.h"
+	"item.h"
+
+1589903671 c:\users\mozes\documents\github\rpg_game\anarkygame\ingame.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"data.h"
+	"item.h"
+	"character.h"
+
+1589903861 source:c:\users\mozes\documents\github\rpg_game\anarkygame\item.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"data.h"
+	"item.h"
+	"character.h"
+
+1589903861 source:c:\users\mozes\documents\github\rpg_game\anarkygame\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"data.h"
+	"item.h"
+	"character.h"
+
+1589903861 source:c:\users\mozes\documents\github\rpg_game\anarkygame\data.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"data.h"
+	"item.h"
+	"character.h"
+
+1589904141 source:c:\users\mozes\documents\github\rpg_game\anarkygame\character.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"data.h"
+	"item.h"
+	"character.h"
+
