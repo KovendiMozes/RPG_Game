@@ -1,4 +1,4 @@
-13
+21
 1aaaaaa
 1aaaaba
 1aaaaca
@@ -12,3 +12,11 @@
 1aabbcdaa
 1aaabbcbdcaa
 1aaabbaa
+1aabbcdbaa
+1aaabbcbdd
+1aabbb
+1aaacbaa
+1aaacaaa
+1aaacaba
+1aaacaca
+1aaacadaa

@@ -63,7 +63,7 @@ int searchIdFromParentId(char* newId, Data* test){
 
 void gameStory(int numberId, Data* data, char* newId){
     char scanId[100] = "";
-    printf("\n%s - %s\nIrja be a valasztot betut: ",data->data[numberId]->id , data->data[numberId]->content);
+    printf("\n%s\nIrja be a valasztot betut: ",data->data[numberId]->content);
     scanf("%s", &scanId);
     strcpy(newId, scanId);
     if(strcmp(newId, "exit") == 0){
@@ -108,15 +108,16 @@ void computerStep(char* id, Data* data, char* myHeroIntensity, int myHeroLevel){
                 numberOfSpeach++;
                 strcat(id, "a");
                 numberId = searchIdFromParentId(id, data);
-                printf("\n%s - %s\nValaszon es irja be a betut: ",data->data[numberId]->id , data->data[numberId]->content);
+                printf("\n%s\nValaszon es irja be a betut: ",data->data[numberId]->content);
                 // ide bejon egy olyan par eset amikor tovabb mehet
+                lastCharacterCutBackMove(id);
                 lastCharacterCutBackMove(id);
                 break;
             }
             else{
                 strcat(id, "b");
                 numberId = searchIdFromParentId(id, data);
-                printf("\n%s - %s\nValaszon es irja be a betut: ",data->data[numberId]->id , data->data[numberId]->content);
+                printf("\n%s\nValaszon es irja be a betut: ",data->data[numberId]->content);
                 if(strcmp(data->data[numberId]->content, "Game over") == 0){
                     exit(0);
                 }
@@ -184,8 +185,19 @@ void specialCases(char* id){
     if(strcmp(id, "1aac") == 0){
         strcpy(id, "1aaabbc");
     }
+    if(strcmp(id, "1aabbcdbb") == 0){
+        strcpy(id, "1aaa");
+    }
+    if(strcmp(id, "1aabbcdbc") == 0){
+        strcpy(id, "1aab");
+    }
+    if(strcmp(id, "1aaabbcbdd") == 0){
+        strcpy(id, "1aaac");
+    }
+    if(strcmp(id, "1aabbb") == 0){
+        strcpy(id, "1aaac");
+    }
 }
-
 
 void inGame(Data* data){
 
@@ -222,10 +234,12 @@ void inGame(Data* data){
                 break;
         }
 
+        /*
         if(strcmp(data->data[numberId]->content, "Victory") == 0){
                 printf("Victory\n");
                 break;
         }
+        */
 
         gameStory(numberId, data, newId);
 

@@ -1,12 +1,12 @@
 1
 1a 1b
-Azt a feladatot kaptad egy taviratban hogy meg kell keres egy embert aki felelos egy falu kiirtasaert. Egy informator segitsegevel sikerult kideriteni hogy egy banyasz faluban rejtozik. A faluban mindenkivel beszelgethetsz de nem biztos hogy valaszolnak is. Ha kaptal gyanusitottat akkor ird be hogy "g" Sok sikert!(Nyomj egy "a" - Ha elfogadod es "b" ha nem)
+Azt a feladatot kaptad egy taviratban hogy meg kell keres egy embert aki felelos egy falu kiirtasaert. Egy informator segitsegevel sikerult kideriteni hogy egy banyasz faluban rejtozik. A faluban mindenkivel beszelgethetsz de nem biztos hogy valaszolnak is. Ha kaptal gyanusitottat akkor ird be hogy "g" de vigyaz mert csak 2x tudsz gyanusitani. Sok sikert!(Nyomj egy "a" - Ha elfogadod es "b" ha nem)
 1a
 1aa 1ab
 A falu bejarata elott vagy. Meglatt a kapuor es megszolit. A kapuor egy fiatal ember kek szemmel es kisebb borostaval az arcan. Azt kerdi hogy milyaratban errefele?("a"vlaszolok es "b" nem valaszolok)
 1aa
 1aaa 1aab 1aac
-A kapuor tovabb enged. De milyelott meg tovabb mehettel volna azt mondja neked: Vigyazon magara mert most sok a merges ember a faluban. Ahogy tovabb messz az ut 3 fele agazik. Merre messz tovabb?("a" elore megyek, "b" balra megyek es "c" jobbra megyek)
+A kapuor tovabb enged. De milyelott meg tovabb mehettel volna azt mondja neked: Vigyazon magara mert most sok a merges ember van a faluban. Ahogy tovabb messz az ut 3 fele agazik. Merre messz tovabb?("a" elore megyek, "b" balra megyek es "c" jobbra megyek)
 1aaa
 1aaaa 1aaab 1aaac 1aaad
 Ismet egy elagazasnal vagy. Melleted egy kocsma ahonnan nagy zaj haladszik ki. Az ut ismet 3 fele agazik. Mit teszel?("a" bemegyek a kocsmaba, "b" balra megyek az uton, "c" elore megyek tovabb, "d" jobbra megyek es "v" vissza megyek)
@@ -75,7 +75,7 @@ Ismet a falu bejaratanal vagy. Mit teszel?("a" Kerdezek a kapuortol, "b" elore m
 Mond valamit.
 1aaabbaaa
 1aaabbaaaa
-Hat az elmult 1 hetben csak 13 ismeretlen jart a faluban de nem tudom hany van meg itt.
+Hat az elmult 1 hetben csak 7 ismeretlen magaval egyutt jart es ebbol 5 tavozott ebbol a faluban de nem tudom hany van meg itt.
 1aaabbaab
 1aaabbaabb
 Nem tudok most valaszolni. Sajnalom.
@@ -90,13 +90,13 @@ Egy haz elott al egy fiatal holgy. Mit teszel?("a" Megalok es kerdezek, "b" tova
 Mond valamit.
 1aaabbcaaa
 1aaabbcaaaa
-Aranyos hangal bemutatkozik es kiderul a kapu or felesege. A kerdesre sajnos nem tudd valaszolni.
+Aranyos hangal bemutatkozik es kiderul a kapuor felesege. A kerdesre sajnos nem tudd valaszolni.
 1aaabbcaab
 1aaabbcaabb
-Aranyos hangal bemutatkozik es kiderul a kapu or felesege. A kerdesre sajnos nem tudd valaszolni.
+Aranyos hangal bemutatkozik es kiderul a kapuor felesege. A kerdesre sajnos nem tudd valaszolni.
 1aaabbcb
 1aaabbcba 1aaabbcbb 1aaabbcbc 1aaabbcbd
-A falu banyaja elott talalod magad. Latsz egy hazat elotted ami elott egy ember al, jobbra toled egy lany al es elotted a haz mogott a banya talalhato. Mit teszel?("a" Beszelek a lanyal, "b" beszelek a haz elott levo emberrel, "c" bemegyek a banyaba, "d" tovabb megyek es "v" vissza megyek)
+A falu banyaja elott talalod magad. Latsz egy hazat elotted ami elott egy ember all, jobbra toled egy lany al es elotted a haz mogott a banya talalhato. Mit teszel?("a" Beszelek a lanyal, "b" beszelek a haz elott levo emberrel, "c" bemegyek a banyaba, "d" tovabb megyek es "v" vissza megyek)
 1aaabbcba
 1aaabbcbaa
 ("a" Oda lepsz a fiatal holgyhoz es meg kerdezed hogy van e valaki ismeretlen a faluban? vagy "v" megsem kerdezek semmit)
@@ -117,19 +117,19 @@ Egy kicsit mintha a felegekben lenne ugy beszelt es csak annyit tudtal kihamozni
 Mond valamit.
 1aaabbcbbaa
 1aaabbcbbaaa
-Egy kicsit szomoru az ember. Kiderul hogy o a banya fonok es azis hogy azert nincsenek itt munkasok mert mind elkellet bocsasa mert valamiert beomlot a banya. De nem lattot senki ismeretlent.
+Egy kicsit szomoru az ember. Kiderul hogy o a banya fonok es az is hogy azert nincsenek itt munkasok mert mind elkellet bocsasa mert valamiert beomlot a banya. De nem lattot senki ismeretlent.
 1aaabbcbbab
 1aaabbcbbabb
 Szomoruan azt mondja most nem tudd ezzel foglalkozni.
 1aaabbcbc
 1aaabbcbca
-Bent vagy de nem latsz valami sokat. Mit teszel?("a" tovabb megyek es "v" vissza megyek)
+Bent vagy de nem latsz valami sokat. Bentrol hangokat is halasz. Mit teszel?("a" tovabb megyek es "v" vissza megyek)
 1aaabbcbca
 1aaabbcbcaa 1aaabbcbcab
 Hangot halasz.
 1aaabbcbcaa
 1aaabbcbcaaa
-Elotted tamad egy nagy farkas. Sikeresen legyozted de nagyon kicsin mult. Nem lehet tudni hogy meg hany lehet lent.
+Le esett egy ko de sikeresen kitertel elole. Ra jottel hogy egy kicsit veszelyes itt lent.
 1aaabbcbcab
 1aaabbcbcabb
 Game over
@@ -147,7 +147,7 @@ Ismet a bejarati kapunal vagy. Mit teszel.("a" beszelek a kapuorel, "b" jobbra m
 Mond valamit.
 1aaabbcbdcaaa
 1aaabbcbdcaaaa
-Hat az elmult 1 hetben csak 13 ismeretlen jart a faluban de nem tudom hany van meg itt.
+Hat az elmult 1 hetben csak 7 ismeretlen magaval egyutt jart es ebbol 5 tavozott ebbol a faluban de nem tudom hany van meg itt.
 1aaabbcbdcaab
 1aaabbcbdcaabb
 Nem tudok most valaszolni. Sajnalom.
@@ -186,13 +186,13 @@ Egy kicsit szomoru az ember. Kiderul hogy o a banya fonok es azis hogy azert nin
 Szomoruan azt mondja most nem tudd ezzel foglalkozni.
 1aabbcb
 1aabbcba
-Bent vagy de nem latsz valami sokat. Mit teszel?("a" tovabb megyek es "v" vissza megyek)
+Bent vagy de nem latsz valami sokat. Hangot halasz. Mit teszel?("a" tovabb megyek es "v" vissza megyek)
 1aabbcba
 1aabbcbaa 1aabbcbab
 Hangot halasz.
 1aabbcbaa
 1aabbcbaaa
-Elotted tamad egy nagy farkas. Sikeresen legyozted de nagyon kicsin mult. Nem lehet tudni hogy meg hany lehet lent.
+Le esett egy ko de sikeresen kitertel elole. Ra jottel hogy egy kicsit veszelyes itt lent.
 1aabbcbab
 1aabbcbabb
 Game over
@@ -223,6 +223,105 @@ Aranyos hangal bemutatkozik es kiderul a kapu or felesege. A kerdesre sajnos nem
 1aabbcdaab
 1aabbcdaabb
 Aranyos hangal bemutatkozik es kiderul a kapu or felesege. A kerdesre sajnos nem tudd valaszolni.
+1aabbcdb
+1aabbcdba 1aabbcdbb 1aabbcdbc
+Ismet a bejarati kapunal vagy. Mit teszel.("a" beszelek a kapuorel, "b" jobbra megyek, "c" elore megyek es "v" vissza megyek)
+1aabbcdba
+1aabbcdbaa
+("a" Oda lepsz a kapuorhoz es meg kerdezed hogy van e valaki ismeretlen a faluban? vagy "v" megsem kerdezek semmit)
+1aabbcdbaa
+1aabbcdbaaa 1aabbcdbaab
+Mond valamit.
+1aabbcdbaaa
+1aabbcdbaaaa
+Hat az elmult 1 hetben csak 7 ismeretlen magaval egyutt jart es ebbol 5 tavozott ebbol  a faluban de nem tudom hany van meg itt.
+1aabbcdbaab
+1aabbcdbaabb
+Nem tudok most valaszolni. Sajnalom.
 1ab
 1abb
 Game over
+1aaac
+1aaaca 1aaacb
+Az ut ismet kette agazik. Mit teszel?("a" tovabb megyek a fouton, "b" tovabb megyek a mellek uton es "v" vissza megyek)
+1aaacb
+1aaacba
+Egy haz elott vagy. Elotte egy oregember. Mit teszel?("a" beszelek vele es "v" vissza megyek)
+1aaacba
+1aaacbaa
+("a" Oda lepsz a oregemberhez es meg kerdezed hogy van e valaki ismeretlen a faluban? vagy "v" megsem kerdezek semmit)
+1aaacbaa
+1aaacbaaa 1aaacbaab
+Mond valamit.
+1aaacbaaa
+1aaacbaaaa
+Egezseget kivan es elkezd panaszkodni a fiara aki napok otta nem jart otthon. Kiderult hogy a fia a kijarati kapunal
+1aaaca
+1aaacaa 1aaacab 1aaacac 1aaacad
+A falu piacan vagy. Eleg kihalt. 3 arust latsz az egesz piacon. Van egy husarus, van egy ruha arus es egy kuruzslo. Mit teszel?("a" beszelek a husarussal, "b" beszelek a ruha arussal, "c" beszelek a kuruzsloval, "d" tovabb megyek es "v" vissza megyek)
+1aaacaa
+1aaacaaa
+("a" Oda lepsz a husarushoz es meg kerdezed hogy van e valaki ismeretlen a faluban? vagy "v" megsem kerdezek semmit)
+1aaacaaa
+1aaacaaaa 1aaacaaab
+Mond valamit
+1aaacaaaa
+1aaacaaaaa
+Eleg sokan jartak mar nala es nem tudja pontosan. Csak panaszkodot a kuruzslora mert olyan anyagokat hasznal ami romlasza a hust es a ruha arusra hogy tulsagosan fen hordja az orat. Es a minap is sokat veszekedet az egyik kliensel aki vissza akart adni egy ruhat. Majdnem verekedes lett belole mondta a husarus. Es mondta hogy a pic kellemesebb mikor az a ketto arus nincs a teren.
+1aaacaaab
+1aaacaaabb
+Eleg sokan jartak mar nala es nem tudja pontosan. De esetleg kerdezen korul a kocsmaban.
+1aaacab
+1aaacaba
+("a" Oda lepsz a ruha arushoz es meg kerdezed hogy van e valaki ismeretlen a faluban? vagy "v" megsem kerdezek semmit)
+1aaacaba
+1aaacabaa 1aaacabab
+Mond valamit.
+1aaacabaa
+1aaacabaaa
+Igen eleg sokat lattam de azok nagyresze mar el is ment kiveve az a ket nem piacra valo arus. De panaszkodot a husarusra hogy budos a standja. A kurozslot nem nagyon ismeri de tudja hogy vita van a husarus es a kurucslo kozott. De kivancsian erdeklodot hogy kit keresk. Nagyon kivancsi volt es ezt nem is rejtegedte.
+1aaacabab
+1aaacababb
+Igen ismer de most nem er ra ezert tovabb kuldot.
+1aaacac
+1aaacaca
+("a" Oda lepsz a kuruzslohoz es meg kerdezed hogy van e valaki ismeretlen a faluban? vagy "v" megsem kerdezek semmit)
+1aaacaca
+1aaacacaa 1aaacacab
+Mond valamit.
+1aaacacaa
+1aaacacaaa
+Nem igazan lattam de szivesen figyelek es ha lattok valakit szolok. Kicsit kivancsi is volt hogy kit keresek netan. Oda fuzte hogy nem akar semmi gondot csak kivancsi.
+1aaacacab
+1aaacacabb
+Nem tudd senkirol akit latot volna es ismeretlen de nagyon nem volt bobeszedu. De mondta hogy esetleg a kapu or nem tudd valamit.
+1aaacad
+1aaacada 1aaacadb
+A falu vegere ertel. Itt van ket kapuor. Az egyik a kapu mellett alszik a masik peddig meredten nezet a falubol kifele. Mit teszel?("a" beszelek az ebren levo kapuorrel, "b" felkoltom az alvo kapuort es "v" vissza megyek)
+1aaacada
+1aaacadaa
+("a" Oda lepsz a kapuorhoz es meg kerdezed hogy van e valaki ismeretlen a faluban? vagy "v" megsem kerdezek semmit)
+1aaacadaa
+1aaacadaaa 1aaacadaab
+Mond valamit
+1aaacadaaa
+1aaacadaaaa
+Hat o az elmult 1 hetben csak 5-et lattot es 3 tavozott innen. De sajnos nem tudja mennyi tavozott.
+1aaacadaab
+1aaacadaabb
+Sajnalja de nem tudd most ezzel foglalkozni mert var valami futart.
+1aaacadb
+1aaacadba
+Kicsit mergesen de felkel es rad morog hogy miert koltotted fel.("a" kerdezel es "v" hagyod tovabb aludni)
+1aaacadba
+1aaacadbaa
+("a" Oda lepsz a kuruzslohoz es meg kerdezed hogy van e valaki ismeretlen a faluban? vagy "v" megsem kerdezek semmit)
+1aaacadbaa
+1aaacadbaaa 1aaacadbaab
+Mond valamit.
+1aaacadbaaa
+1aaacadbaaaa
+Nem lattot semmit de kiderult hogy az oreg ember fia. O az ejjeli muszakban dolgozik es emiatt nem ment haza par napja. De ejjelente nem ment senki ki.
+1aaacadbaab
+1aaacadbaabb
+Nem lattot senkit. Es vissza fekudt aludni.

@@ -10,7 +10,7 @@
 
 int main()
 {
-    int numberItem = 76;
+    int numberItem = 107;
     Data* test = CreateData(numberItem);
 
     test = readData(test->numberOfItem);

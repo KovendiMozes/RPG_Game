@@ -7,6 +7,8 @@
 #include "item.h"
 #include "character.h"
 
+int gyanusitot = 0;
+
 Character* CreateCharacter(char* heroName, char* heroIntensity){
     Character* hero = (Character*)calloc(1,sizeof(Character));
 
@@ -61,7 +63,20 @@ void specialEvents(char* id, char* newId, Character* myHero){
         printf("Nev: %s\nErosseg: %s\nSzint: %i\n", myHero->name, myHero->intensity, myHero->level);
     }
     else if(strcmp(newId, "g") == 0){
-        printf("Igen o a gyanusitot!\n");
+        char gyanus[100] = "";
+        printf("\nMi a neve.('Kovacs', 'Kocsmaros', 'Banyaszok', 'Banya fonok', 'Kuruzslo', 'Husarus', 'Ruhaarus', 'Oregember', 'Fiatalholgy', 'Lany', 'Banyafonok', 'Kapuor1' ha a bejarati kapuor, 'Kapuor2' ebrenlevo kapuor, 'Kapuor3' alvo kapuor,)\n");
+        scanf("%s", &gyanus);
+        if(strcmp(gyanus, "Kuruzslo") == 0 && gyanusitot < 2){
+            printf("\nIgen o volt. Gratulalok.\n");
+            exit(0);
+        }
+        else if(gyanusitot == 1){
+            printf("\nNem kaptad meg ezert a fonokseg levaltot.\n");
+            exit(0);
+        }
+        else{
+            gyanusitot++;
+        }
     }
     else{
         strcat(id, newId);
